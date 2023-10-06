@@ -8,7 +8,7 @@ News API_Project can provide information such as top headlines, articles, and ne
 This News API at present is working on requesting information about top headlines, articles, and news sources. Using this application, users can quickly and easily access the latest news and stay informed about current events.
 
 
-Required packages for sports API_Project:
+Required packages for News API_Project:
        
      1.configparaser
      2.yaml
