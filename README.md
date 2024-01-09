@@ -35,7 +35,7 @@ This News API at present is working on requesting information about top headline
 
    - **Build:** The selected output format and file name are returned to the main script for use in saving or displaying data.
 
- Query Customization:
+ **Query Customization:**
 
    - **Request:** Several functions, such as `q_validation()`, `category_calling()`, `country_calling()`, `articels_calling()`, `lang_val()`, and `sort_validation()`, interact with the user to collect various query parameters like search query, category, country, number of articles, language, and sorting options.
 
@@ -43,7 +43,7 @@ This News API at present is working on requesting information about top headline
 
    - **Build:** The `query_params` dictionary, which contains the user's customized query parameters, is returned to the main script for constructing the API request.
 
- API Call:
+ **API Call:**
 
    - **Request:** The `api_call()` function sends an HTTP GET request to the News API URL with the specified query parameters and API key.
 
@@ -51,7 +51,7 @@ This News API at present is working on requesting information about top headline
 
    - **Build:** The JSON response containing news articles and headlines is returned to the main script.
 
- Data Presentation:
+ **Data Presentation:**
 
    - **Request:** The script processes the JSON response data, extracting information such as source names, authors, titles, publication dates, and descriptions.
 
@@ -59,7 +59,7 @@ This News API at present is working on requesting information about top headline
 
    - **Build:** The processed and formatted data is presented to the user or saved based on the selected output format.
 
- Multiple Configurations:
+ **Multiple Configurations:**
 
    - **Request:** Users have the option to continue making multiple API requests with different parameters.
 
